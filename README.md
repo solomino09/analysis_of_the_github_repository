@@ -11,40 +11,32 @@ Analysis of the GitHub repository
 # Example
 
 Please enter your credentials for GitHub:
+
 Login: userlogin
+
 Password: 
+
 Public repository URL at github.com: https://github.com/repoovner/repo
+
 Analysis start date. If empty, then unlimited (format yyyy-mm-dd) : 2020-09-21
+
 Analysis end date. If empty, then unlimited (format yyyy-mm-dd) : 2020-09-22
+
 Repository branch. The default is master: 
 
     Comiter rate
-_______________________________
-|                             |
-| someuser            |  1    |
-|_____________________________|
+
+| someuser - 1 |
 
     Pull requests info
-_______________________________
-|                             |
-| Open           |  1         |
-|_____________________________|
-|                             |
-| Closed         |  2         |
-|_____________________________|
-|                             |
-| Old            |  0         |
-|_____________________________|
+
+| Open - 1 |
+| Closed - 2 |
+| Old - 0 |
 
      Issues info
-_______________________________
-|                             |
-| Open           |  5         |
-|_____________________________|
-|                             |
-| Closed         |  2         |
-|_____________________________|
-|                             |
-| Old            |  0         |
-|_____________________________|
+
+| Open - 5 |
+| Closed - 2 |
+| Old - 0 |
 
